@@ -203,3 +203,26 @@ The author accepts no responsibility for misuse.
 ☠ *Gets deadlier every time you ask* ☠
 
 </div>
+
+---
+
+## 📸 Screenshots
+
+### ☠ ROXX Banner — v777 ABYSS
+![ROXX Banner](docs/screenshots/01_banner.png)
+
+### 🗡 Devil Help Menu
+![Devil Commands](docs/screenshots/02_devil_help.png)
+
+### 💀 25-Phase Hunt Engine Running
+![Hunt Phases](docs/screenshots/03_hunt_phases.png)
+
+### 🔴 Critical Findings Output
+![Findings](docs/screenshots/04_findings.png)
+
+### ⚡ One-Line Install Sequence
+![Install](docs/screenshots/06_install.png)
+
+### 🔄 Auto-Update + Self-Heal
+![Auto-Update](docs/screenshots/07_autoupdate.png)
+
