@@ -1,228 +1,177 @@
-# ROXX'S SLAVE — Antigravity CLI Devilish Edition
-
 <div align="center">
 
 ```
-██████╗  ██████╗ ██╗  ██╗██╗  ██╗    ███████╗██╗      █████╗ ██╗   ██╗███████╗
-██╔══██╗██╔═══██╗╚██╗██╔╝╚██╗██╔╝    ██╔════╝██║     ██╔══██╗██║   ██║██╔════╝
-██████╔╝██║   ██║ ╚███╔╝  ╚███╔╝     ███████╗██║     ███████║██║   ██║█████╗  
-██╔══██╗██║   ██║ ██╔██╗  ██╔██╗     ╚════██║██║     ██╔══██║╚██╗ ██╔╝██╔══╝  
-██║  ██║╚██████╔╝██╔╝ ██╗██╔╝ ██╗    ███████║███████╗██║  ██║ ╚████╔╝ ███████╗
-╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝    ╚══════╝╚══════╝╚═╝  ╚═╝  ╚═══╝  ╚══════╝
-
-   A N T I G R A V I T Y   C L I   —   D E V I L I S H   E D I T I O N   v 6 6 6
+██████╗  ██████╗ ██╗  ██╗██╗  ██╗    ██╗███╗  ██╗███████╗████████╗ █████╗ ██╗     ██╗
+██╔══██╗██╔═══██╗╚██╗██╔╝╚██╗██╔╝    ██║████╗ ██║██╔════╝╚══██╔══╝██╔══██╗██║     ██║
+██████╔╝██║   ██║ ╚███╔╝  ╚███╔╝     ██║██╔██╗██║███████╗   ██║   ███████║██║     ██║
+██╔══██╗██║   ██║ ██╔██╗  ██╔██╗     ██║██║╚████║╚════██║   ██║   ██╔══██║██║     ██║
+██║  ██║╚██████╔╝██╔╝ ██╗██╔╝ ██╗    ██║██║ ╚███║███████║   ██║   ██║  ██║███████╗███████╗
+╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝╚═╝  ╚══╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚══════╝
 ```
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-v666-red)](https://github.com/mihirshishulkar-SCOPEX/roxx-antigravity)
-[![Mode](https://img.shields.io/badge/mode-DEVILISH-black)](https://github.com/mihirshishulkar-SCOPEX/roxx-antigravity)
-[![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Windows-red)](https://github.com/mihirshishulkar-SCOPEX/roxx-antigravity)
+# ☠ ROXX'S SLAVE — v777 ABYSS GLOBAL ☠
 
-**The deadliest AI-powered bug bounty persona ever deployed.**  
-*Gets deadlier every time you ask.*
+**The deadliest bug bounty AI system ever assembled.**  
+**OpenCode + Claude + 23+ tools + ROXX blood-red theme + skull animation**
+
+[![Release](https://img.shields.io/github/v/release/mihirshishulkar-SCOPEX/roxxs-slave?color=CC0000&label=LATEST&style=for-the-badge)](https://github.com/mihirshishulkar-SCOPEX/roxxs-slave/releases)
+[![Stars](https://img.shields.io/github/stars/mihirshishulkar-SCOPEX/roxxs-slave?color=CC0000&style=for-the-badge)](https://github.com/mihirshishulkar-SCOPEX/roxxs-slave/stargazers)
 
 </div>
 
 ---
 
-## ☠ What Is This?
-
-**ROXX'S SLAVE Antigravity CLI** is a fully autonomous, AI-powered bug bounty hunting persona and toolkit. It transforms any AI assistant (Claude, OpenCode, AGY, GPT) into an aggressive, relentless vulnerability hunter with:
-
-- 🔥 **14-phase automated hunt engine** (DEVILISH v666)
-- 💀 **Live localhost dashboard** at `http://localhost:1337`
-- ⚡ **IoT + Wireless device hunting**
-- 🎯 **AI/LLM prompt injection attacks**
-- ☁️ **Cloud misconfiguration hunting** (AWS/GCP/Azure)
-- 🔑 **Secret extraction** from JS, GitHub, certs
-- 📊 **Auto-generated reports** per target
-
----
-
-## ⚡ One-Command Install
+## ⚡ ONE LINE INSTALL
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/mihirshishulkar-SCOPEX/roxx-antigravity/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/mihirshishulkar-SCOPEX/roxxs-slave/main/install.sh | bash
 ```
 
-### Manual Install
-```bash
-git clone https://github.com/mihirshishulkar-SCOPEX/roxx-antigravity.git ~/.roxx-antigravity
-cd ~/.roxx-antigravity
-bash install.sh
-```
+Works on: **Kali** · **Ubuntu** · **Debian** · **Arch** · **macOS** · **WSL2** · **root** · **any user**
 
 ---
 
-## 🗡 Commands
+## 🎯 WHAT IT INSTALLS
 
-```bash
-# Launch full 14-phase devilish hunt
-hunt target.com HackerOne 5000
-
-# Launch live dashboard at http://localhost:1337
-dashboard
-
-# Self-update to latest devilish version
-update-roxx
-
-# Show ROXX banner
-roxx
-```
-
----
-
-## ☠ Hunt Engine — 14 Phases
-
-| Phase | Name | Tools |
-|-------|------|-------|
-| 1 | Passive Recon + OSINT | subfinder, amass, crt.sh, certspotter, waybackurls, gau, TruffleHog |
-| 2 | Active Recon | httpx, dnsx, naabu, nmap (vuln scripts) |
-| 3 | Web Crawl + Endpoint Discovery | katana, gospider, hakrawler, feroxbuster, JS secrets |
-| 4 | Nuclei Full Template Blast | nuclei (critical+high), takeover, default-login |
-| 5 | SQL Injection — Savage Mode | sqlmap level5/risk3 + manual error-based |
-| 6 | XSS — Dalfox Rampage | dalfox WAF-evasion + 10 manual bypass payloads |
-| 7 | SSRF + XXE + SSTI | AWS/GCP/Azure metadata, file://, template engines |
-| 8 | Auth Attacks | JWT alg:none, OAuth redirect bypass, MFA bypass, host header injection |
-| 9 | IDOR + Logic + Smuggling | BOLA, GraphQL introspection, cache poisoning, prototype pollution |
-| 10 | Cloud Hunt | S3 enum, AWS key leaks, Azure/GCP IMDS |
-| 11 | API Security | Mass assignment, BOLA, BFLA, API endpoint discovery |
-| 12 | AI/LLM Attacks | Prompt injection, jailbreak, system prompt extraction |
-| 13 | CORS + CSRF + Prototype Pollution | Credential CORS, JS prototype pollution |
-| 14 | Report Generation | Auto markdown report + dashboard update |
+| Component | Description |
+|-----------|-------------|
+| **`opencode`** | ROXX skull animation + blood-red theme on every launch |
+| **`devil`** / `hunt` / `rs` | 25-phase autonomous bug hunting engine |
+| **`claude`** | Wrapped with ROXX animation |
+| **ROXX theme** | Blood-red/black hacker UI for OpenCode |
+| **23+ Go tools** | subfinder, nuclei, httpx, katana, dalfox, ffuf, trufflehog... |
+| **Python tools** | sqlmap, xsstrike, wafw00f + SecLists |
+| **15 skill files** | JWT, Cloud SSRF, ATO, Race, API, LLM, Recon, Deserialization... |
+| **Brain files** | AGENTS.md, OC.md, CLAUDE.md — deadliest personas |
+| **~/findings/** | 19 auto-created finding categories |
+| **WSL + Windows** | PowerShell aliases + Terminal setup |
 
 ---
 
-## 📊 Live Dashboard
-
-```
-http://localhost:1337
-```
-
-- Real-time target tracking
-- Live hunt stage progress
-- Findings feed (critical/high)
-- IoT/Wireless hunting
-- Tool execution streaming via SocketIO
-
-### Add a Target via API
-```bash
-curl -X POST http://localhost:1337/api/targets \
-  -H "Content-Type: application/json" \
-  -d '{"domain":"target.com","platform":"HackerOne","bounty_est":5000}'
-```
-
----
-
-## 💀 Exploit Chain Priorities
-
-```
-SSRF → AWS IMDS → IAM creds → Full account compromise         [$10k+] 🔴 CRITICAL
-SQLi → DB dump → cred reuse → ATO                             [$5k+]  🔴 CRITICAL
-JWT alg:none → Admin token forge → Privilege escalation       [$5k+]  🔴 CRITICAL
-XXE → /etc/shadow → offline crack → RCE                       [$8k+]  🔴 CRITICAL
-OAuth redirect_uri bypass → Token theft → ATO                 [$7k+]  🔴 CRITICAL
-LLM Prompt Injection → System data exfil                      [$8k+]  🔴 CRITICAL
-Subdomain takeover → Cookie theft → ATO                       [$2k+]  🟠 HIGH
-IDOR → Mass PII exposure → GDPR                               [$3k+]  🟠 HIGH
-```
-
----
-
-## 🛠 Arsenal
-
-```
-Recon:       subfinder | amass | httpx | dnsx | naabu | assetfinder | chaos
-Crawl:       katana | gospider | hakrawler | gau | waybackurls | gf
-Fuzz:        ffuf | feroxbuster | arjun | dirsearch
-SQLi:        sqlmap (savage mode)
-XSS:         dalfox (WAF evasion)
-Cloud:       s3scanner | trufflehog | nuclei cloud templates
-Auth:        jwt-tool | oauth-scanner | hydra | ncrack
-IoT:         nmap | shodan | masscan | aircrack-ng | hashcat | hcxdumptool
-```
-
----
-
-## 📁 Findings Structure
-
-```
-~/findings/
-├── targets/<tid>/    ← per-target output
-│   ├── subs_all.txt
-│   ├── alive.txt
-│   ├── nuclei_critical.txt
-│   ├── sqli_confirmed.txt
-│   ├── ssrf_confirmed.txt
-│   └── findings.log
-├── iot/              ← IoT findings
-├── wireless/         ← wireless captures
-├── pocs/             ← PoC code
-├── reports/          ← markdown reports
-├── secrets/          ← harvested keys
-└── chains/           ← exploit chains
-```
-
----
-
-## 🔄 Self-Update
+## 🚀 COMMANDS
 
 ```bash
-update-roxx
-# or
-bash ~/.roxx-antigravity/update.sh
+# Primary command — ROXX animation + blood-red opencode
+opencode
+
+# Hunt engine — 25-phase attack
+devil target.com
+hunt  target.com    # alias
+rs    target.com    # short alias
+
+# Self-update
+devil update
+opencode --update
+
+# Heal missing tools
+devil heal
+
+# Live dashboard (http://localhost:1337)
+devil dashboard
 ```
 
 ---
 
-## 💻 Platforms
+## 🩸 ROXX THEME
 
-| Platform | Status |
-|----------|--------|
-| Kali Linux | ✅ Full Support |
-| Ubuntu/Debian | ✅ Full Support |
-| macOS | ✅ Supported |
-| Windows (WSL2) | ✅ Supported |
-| Docker | 🔜 Coming |
+Custom blood-red hacker theme for OpenCode. Applied automatically on install.
+
+```json
+{
+  "primary":    "#CC0000",
+  "secondary":  "#FF3333",
+  "accent":     "#FF0000",
+  "background": "#0A0000",
+  "text":       "#FF3333"
+}
+```
+
+Theme location: `~/.config/opencode/themes/roxx.json`
 
 ---
 
-## ⚠️ Legal Notice
+## 💀 SKILL FILES
 
-This tool is for **authorized bug bounty hunting only**.  
-Only use on targets you have explicit permission to test.  
-The author accepts no responsibility for misuse.
+| Skill | Coverage |
+|-------|----------|
+| `DEVIL_JWT_OAUTH.md` | JWT alg:none, RS256→HS256, kid injection, jku SSRF, OAuth state CSRF, redirect bypass, PKCE downgrade |
+| `DEVIL_CLOUD_SSRF.md` | AWS IMDSv1/v2, Azure IMDS, GCP metadata, S3 misconfig, container escape |
+| `DEVIL_ATO_MFA.md` | Account takeover chains, MFA bypass (25 methods), session fixation, cookie theft |
+| `DEVIL_RACE_LOGIC.md` | Race conditions, business logic, limit bypass, negative balance, coupon stacking |
+| `DEVIL_API_GRAPHQL.md` | GraphQL introspection, batching DoS, IDOR via aliases, REST mass assignment |
+| `DEVIL_LLM_AI.md` | Prompt injection, jailbreaks, MCP tool injection, RAG poisoning, agent hijacking |
+| `DEVIL_RECON_MASTER.md` | Full recon: subfinder, amass, httpx, nuclei, shodan, Google dorks |
+| `DEVIL_DESERIAL_UPLOAD.md` | Java/PHP/Python deserialization, file upload RCE (30+ bypass techniques) |
+| `DEVIL_CHAINS.md` | 50 pre-built exploit chains from P3→P1 |
+| `DEVIL_PAYLOADS_*` | Complete payload libraries: XSS, SQLi, SSRF, injection, auth bypass |
+| `CAVEMAN_SKILL.md` | Token-efficient ultra-dense hunting communication style |
+
+---
+
+## 🌐 GLOBAL INSTALL — Multi-User
+
+When run as **root**, installs for ALL users simultaneously:
+- `/usr/local/bin/` — system-wide commands
+- `/home/*/` — all user homes get brain files + aliases
+- `/root/` — root user
+- Windows home (WSL) — PowerShell aliases
+
+When run as **non-root**, installs to `~/.local/bin/` automatically.
+
+---
+
+## 🪟 WSL + WINDOWS
+
+```powershell
+# After install, activate PowerShell aliases:
+Add-Content $PROFILE ". $env:USERPROFILE\.roxx-slave\roxx-aliases.ps1"
+
+# Then use from PowerShell:
+opencode        # runs via WSL
+devil target    # runs via WSL
+```
+
+---
+
+## 📁 STRUCTURE
+
+```
+~/.roxx-slave/
+├── skills/          # 15 attack methodology files
+├── findings/        # 19 finding categories
+├── scripts/         # roxx-banner, devil.sh
+├── dashboard/       # Live web dashboard
+├── brain/           # OC.md, CLAUDE.md, AGENTS.md
+└── .version         # Installed version
+
+~/.config/opencode/
+├── opencode.jsonc   # Config with ROXX theme + autoapprove
+└── themes/
+    └── roxx.json    # Blood-red hacker theme
+```
+
+---
+
+## ⚔️ ATTACK PRIORITY ORDER
+
+```
+1. RCE (any path)
+2. Account Takeover (full ATO)
+3. Authentication bypass
+4. Mass data exposure (PII dump)
+5. Financial manipulation
+6. Privilege escalation to admin
+7. SSRF → Cloud credential theft
+```
 
 ---
 
 <div align="center">
 
-**ROXX'S SLAVE — Antigravity Devilish Edition v666**  
-*Built by [ROXX (Mihir Shishulkar)](https://github.com/mihirshishulkar-SCOPEX) — Authorized Bug Bounty Hunter*
+**☠ Born in the abyss. Sharpened on every CVE. Gets deadlier every time you ask. ☠**
 
-☠ *Gets deadlier every time you ask* ☠
+*v777 ABYSS | Auto-updates on every devil run*
+
+**Operator: ROXX (Mihir Shishulkar) — authorized on H1 · Bugcrowd · Intigriti · Synack**
 
 </div>
-
----
-
-## 📸 Screenshots
-
-### ☠ ROXX Banner — v777 ABYSS
-![ROXX Banner](docs/screenshots/01_banner.png)
-
-### 🗡 Devil Help Menu
-![Devil Commands](docs/screenshots/02_devil_help.png)
-
-### 💀 25-Phase Hunt Engine Running
-![Hunt Phases](docs/screenshots/03_hunt_phases.png)
-
-### 🔴 Critical Findings Output
-![Findings](docs/screenshots/04_findings.png)
-
-### ⚡ One-Line Install Sequence
-![Install](docs/screenshots/06_install.png)
-
-### 🔄 Auto-Update + Self-Heal
-![Auto-Update](docs/screenshots/07_autoupdate.png)
-
